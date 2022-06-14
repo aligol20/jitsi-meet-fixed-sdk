@@ -1,7 +1,7 @@
 # JITSI MEET SDK 3.7.0 Maven binaries 
 
 ## TO USE
-in Android/build.gradle replace this:
+In Android/build.gradle replace this:
 
 ```maven { // <---- Add this block url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases" }```
 

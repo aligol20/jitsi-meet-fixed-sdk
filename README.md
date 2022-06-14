@@ -8,6 +8,7 @@ in Android/build.gradle replace this:
 with this:
 
 ```maven { url "https://github.com/aligol20/jitsi-meet-fix-android-sdk/raw/master/releases" }```
+
 next:
 
 ```cd android & ./gradlew clean```

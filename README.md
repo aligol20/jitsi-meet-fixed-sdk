@@ -1,4 +1,4 @@
-# JITSI MEET SDK 3.10.2 Maven binaries 
+# JITSI MEET SDK 3.7.0 Maven binaries 
 
 ## TO USE
 - unzip jitsi_maven.zip somewhere (to /tmp/jitsi_maven)

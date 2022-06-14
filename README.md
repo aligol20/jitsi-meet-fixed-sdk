@@ -11,6 +11,5 @@ with this:
 next:
 
 ```cd android & ./gradlew clean```
-then run the app, now buttons become normal!
-
+then run the app, and now buttons become normal!
 

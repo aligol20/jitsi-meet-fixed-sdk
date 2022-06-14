@@ -1,17 +1,16 @@
 # JITSI MEET SDK 3.7.0 Maven binaries 
 
 ## TO USE
-- unzip jitsi_maven.zip somewhere (to /tmp/jitsi_maven)
-- edit app/build.gradle :
+in Android/build.gradle replace this:
 
-```
-allprojects {
-    repositories {
-        maven { url "file:/tmp/repo" }
-        google()
-        jcenter()
-    }
-}
-```
+```maven { // <---- Add this block url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases" }```
 
-And your good to go ! 🚀
+with this:
+
+```maven { url "https://github.com/aligol20/jitsi-meet-fix-android-sdk/raw/master/releases" }```
+next:
+
+```cd android & ./gradlew clean```
+then run the app, now buttons become normal!
+
+
